@@ -9,7 +9,6 @@ from .serializers import SnippetSerializer, UserSerializer
 from .permissions import IsOwnerOrReadOnly
 # Create your views here.
 
-
 # @api_view(['GET'])
 # def api_root(request, format=None):
 #     return Response({

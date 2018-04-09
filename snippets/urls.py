@@ -39,7 +39,7 @@ from rest_framework.routers import DefaultRouter
 # urlpatterns = format_suffix_patterns(urlpatterns)
 
 router = DefaultRouter()
-router.register(r'snippet', views.SnippetViewSet)
+router.register(r'snippets', views.SnippetViewSet)
 router.register(r'users', views.UserViewSet)
 
 urlpatterns = [
